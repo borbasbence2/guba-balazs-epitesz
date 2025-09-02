@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Components</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <style>
+      .feature-icon {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 0.75rem;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand border border-1 border-secondary border-start-1 rounded-3 px-2" href="#"
+          ><img
+            src="buildings.svg"
+            alt="Logo"
+            width="40"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+          Guba Balázs Ép</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Kezdőlap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rólam</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Szolgáltatások
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Teljes Tervezés</a></li>
+                <li><a class="dropdown-item" href="#">Ház tervezése</a></li>
+                <li><a class="dropdown-item" href="#">Gazdasági épület tervezése</a></li>
+                <li><a class="dropdown-item" href="#">Garázs tervezése</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Konzultáció</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Irányítószám"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">Ellenőrzés</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold text-body-emphasis">
+        Építészet – Funkció és esztétika harmóniája
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Munkám során arra törekszem, hogy olyan tereket hozzak létre, amelyek
+          nemcsak esztétikusak, hanem időtállóak és élhetőek is. Az építészet
+          számomra nem csupán tervezés, hanem párbeszéd a környezettel és az
+          emberekkel, akik benne élnek. <br />
+          <br />
+          Legyen szó otthonról, munkahelyről vagy közösségi térről, a célom
+          mindig ugyanaz: egyedi, személyre szabott megoldásokat kínálni,
+          amelyek ötvözik a modern formavilágot a praktikus használhatósággal.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+            Ajánlatot kérek
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            Kapcsolat
+          </button>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 70vh">
+        <div class="container px-5">
+          <img
+            src="hero-image-2.png"
+            class="img-fluid border rounded-3 shadow-lg mb-4"
+            alt="Example image"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom">Miért velem tervezz?</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+            <img src="houses-fill.svg" alt="" height="30" />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">
+            Személyre szabott, precíz tervezés
+          </h3>
+          <p>
+            Minden épület egyedi, ahogyan az emberek is, akik benne élnek vagy
+            dolgoznak. Fontosnak tartom, hogy a tervek ne csak esztétikusak
+            legyenek, hanem valóban az Ön életviteléhez, igényeihez és
+            elképzeléseihez igazodjanak. A célom olyan terek megalkotása,
+            amelyek hosszú távon is kényelmet, funkcionalitást és otthonosságot
+            nyújtanak.
+          </p>
+          <a href="#" class="icon-link">
+            Árajánlat kérése
+            <svg class="bi" aria-hidden="true">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+            <img src="brightness-alt-high-fill.svg" alt="" height="40" />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Kreatív és modern megoldások</h3>
+          <p>
+            Az építészet számomra a kreativitás és a praktikum ötvözete. Olyan
+            modern, letisztult formavilágot képviselek, amely nem követi vakon a
+            trendeket, hanem időtálló értéket teremt. Tudatos anyaghasználattal
+            és innovatív megoldásokkal dolgozom, hogy az elkészült épület
+            egyszerre legyen esztétikus, fenntartható és élhető.
+          </p>
+          <a href="#" class="icon-link">
+            Eddigi munkák
+            <svg class="bi" aria-hidden="true">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+            <img src="person-heart.svg" alt="" height="30" />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Megbízhatóság és szakértelem</h3>
+          <p>
+            Egy építészeti projekt akkor sikeres, ha a megrendelő végig
+            biztonságban érzi magát a folyamat során. A tervezéstől a
+            kivitelezésig szakmai támogatást nyújtok, átlátható kommunikációval
+            és pontos határidők betartásával. Hiszem, hogy a bizalom és a
+            szakértelem kéz a kézben jár, és ezekre építem minden
+            munkakapcsolatomat.
+          </p>
+          <a href="#" class="icon-link">
+            Lépj kapcsolatba
+            <svg class="bi" aria-hidden="true">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 100vh">
+        <div class="container px-5 text-center">
+          <img
+            src="close-img.jpg"
+            class="img-fluid border rounded-3 shadow-lg mb-4"
+            alt="Example image"
+            width="900"
+            height="700"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-body-secondary">© 2025 Guba Balázs Építészet</p>
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          aria-label="Bootstrap"
+        >
+          <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Kezdőoldal</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Tervek</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Árak</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Gyakori Kérdések</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Rólam</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
